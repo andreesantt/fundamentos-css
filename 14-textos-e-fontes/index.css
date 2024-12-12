@@ -1,0 +1,35 @@
+/* Cores */
+* {
+    color: white;
+    background-color: black;
+}
+
+/* Tipos de textos */
+header {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+/* Fontes */
+h1 {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 16px;
+    letter-spacing: 8px;
+    text-transform: uppercase
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
