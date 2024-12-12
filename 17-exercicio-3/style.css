@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+}
+
+img {
+    width: 800px;
+    height: 650px;
+}
+
+.box1 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border-bottom: 5px;
+}
