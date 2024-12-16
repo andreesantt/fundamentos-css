@@ -51,3 +51,50 @@ a {
     letter-spacing: 0.5rem;
     text-transform: uppercase;
 }
+
+.section {
+    padding:0 8rem;
+    text-align: center;
+}
+
+.section__title {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 4rem auto;
+}
+
+.section__img, 
+.section__img-inline {
+    border-radius: .75rem;
+    /* eixo x, eixo y, blur,expansão ou recuo, cor */
+    box-shadow:0 1rem 2rem -0.5rem rgba(20, 116, 180, 0.25) ;
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    max-height: 30rem;
+    width: 100%;
+}
+
+.setcion__text, 
+.section__texte-inline {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin: 4rem auto;
+}
+
+.section__img-inline {
+    float: left;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    height: 25rem;
+    width: 20rem;
+}
+
+.section__text-inline {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.section__text-inline > p {
+    margin-top: 1.5rem;
+}
